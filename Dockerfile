@@ -16,3 +16,10 @@ COPY app ./app
 
 EXPOSE 8000
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+git init
+git add .
+git commit -m "ticketing app"
+git branch -M main
+git remote add origin https://github.com/AKASHADOW123321/microservices.git
+git push -u origin main
+
